@@ -85,7 +85,7 @@ public class Console {
 	
 	public void correctGuessPrompt(int turnsUsed) {
 		System.out.println("Congratulations! The correct integer is " + generatedNumber);
-		System.out.println(turnsUsed + " turns were used");
+		System.out.println(turnsUsed + " turns were used. Only correct format inputs were counted.");
 
 	}
 	
